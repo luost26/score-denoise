@@ -28,7 +28,7 @@ def load_off(off_dir):
             continue
         name = fn[:-4]
         path = os.path.join(off_dir, fn)
-        verts, faces, _ = pcu.read_off(path)
+        verts, faces = pcu.load_mesh_vf(path)
         verts = torch.FloatTensor(verts)
         faces = torch.LongTensor(faces)
         all_meshes[name] = {'verts': verts, 'faces': faces}
