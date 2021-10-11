@@ -1,5 +1,7 @@
 # Score-Based Point Cloud Denoising (ICCV'21)
-![teaser](./teaser.png)[Paper] [https://arxiv.org/abs/2107.10981](https://arxiv.org/abs/2107.10981)
+<img src="teaser.png" alt="teaser" width="50%" />
+
+[Paper] [https://arxiv.org/abs/2107.10981](https://arxiv.org/abs/2107.10981)
 
 ## Installation
 
