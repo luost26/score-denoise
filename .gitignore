@@ -139,10 +139,10 @@ cython_debug/
 
 
 /.vscode
-/data
 /logs*
 /results
 /inputs
 
 # Temp outputs
 /*.xyz
+.DS_Store
