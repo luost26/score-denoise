@@ -56,13 +56,13 @@ Please extract `data.zip` to `data` folder.
 
 ```bash
 # PUNet dataset, 10K Points
-python test.py --dataset PUNet --resolution 10000_poisson --noise 0.01
-python test.py --dataset PUNet --resolution 10000_poisson --noise 0.02
-python test.py --dataset PUNet --resolution 10000_poisson --noise 0.03
+python test.py --dataset PUNet --resolution 10000_poisson --noise 0.01 --niters 1
+python test.py --dataset PUNet --resolution 10000_poisson --noise 0.02 --niters 1
+python test.py --dataset PUNet --resolution 10000_poisson --noise 0.03 --niters 2
 # PUNet dataset, 50K Points
-python test.py --dataset PUNet --resolution 50000_poisson --noise 0.01
-python test.py --dataset PUNet --resolution 50000_poisson --noise 0.02
-python test.py --dataset PUNet --resolution 50000_poisson --noise 0.03
+python test.py --dataset PUNet --resolution 50000_poisson --noise 0.01 --niters 1
+python test.py --dataset PUNet --resolution 50000_poisson --noise 0.02 --niters 1
+python test.py --dataset PUNet --resolution 50000_poisson --noise 0.03 --niters 2
 ```
 
 ### Denoise Regular-Sized Point Clouds (≤ 50K Points)
