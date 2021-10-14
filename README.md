@@ -38,7 +38,7 @@ conda install -c conda-forge point_cloud_utils==0.18.0
 
 # Pytorch3d
 conda install -c fvcore -c iopath -c conda-forge fvcore iopath
-conda install pytorch3d -c pytorch3d==0.5.0
+conda install -c pytorch3d pytorch3d==0.5.0
 
 # pytorch-scatter
 conda install -c pyg pytorch-cluster==1.5.9
