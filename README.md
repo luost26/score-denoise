@@ -9,12 +9,12 @@
 
 The code has been tested in the following environment:
 
-| Package                                                      | Version |
-| ------------------------------------------------------------ | ------- |
-| PyTorch                                                      | 1.9.0   |
-| [point_cloud_utils](https://github.com/fwilliams/point-cloud-utils) | 0.18.0  |
-| [pytorch3d](https://github.com/facebookresearch/pytorch3d)   | 0.5.0   |
-| [pytorch-cluster](https://github.com/rusty1s/pytorch_cluster) | 1.5.9   |
+| Package                                                      | Version | Comment                                                      |
+| ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
+| PyTorch                                                      | 1.9.0   |                                                              |
+| [point_cloud_utils](https://github.com/fwilliams/point-cloud-utils) | 0.18.0  | For evaluation only. It loads meshes to compute point-to-mesh distances. |
+| [pytorch3d](https://github.com/facebookresearch/pytorch3d)   | 0.5.0   | For evaluation only. It computes point-to-mesh distances.    |
+| [pytorch-cluster](https://github.com/rusty1s/pytorch_cluster) | 1.5.9   | We only use `fps` (farthest point sampling) to merge denoised patches. |
 
 ### Install via Conda (PyTorch 1.9.0 + CUDA 11.1)
 
