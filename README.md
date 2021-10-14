@@ -73,7 +73,7 @@ python test_single.py --input_xyz <input_xyz_path> --output_xyz <output_xyz_path
 
 You may also barely run `python test_single.py` to see a quick example.
 
-### Denoie Large Point Clouds (> 50K Points)
+### Denoise Large Point Clouds (> 50K Points)
 
 ```bash
 python test_large.py --input_xyz <input_xyz_path> --output_xyz <output_xyz_path>
