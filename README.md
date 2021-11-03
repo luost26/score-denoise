@@ -65,7 +65,7 @@ python test.py --dataset PUNet --resolution 50000_poisson --noise 0.02 --niters 
 python test.py --dataset PUNet --resolution 50000_poisson --noise 0.03 --niters 2
 ```
 
-### Denoise Regular-Sized Point Clouds (≤ 50K Points)
+### Denoise Regular-Size Point Clouds (≤ 50K Points)
 
 ```bash
 python test_single.py --input_xyz <input_xyz_path> --output_xyz <output_xyz_path>
