@@ -54,6 +54,10 @@ Please extract `data.zip` to `data` folder.
 
 ### Reproduce Paper Results
 
+**[Known Issue about the PCNet Testset]** 
+The P2M results of the PCNet testset might vary depending on GPU architecture and [PyTorch version](https://github.com/luost26/score-denoise/issues/12#issuecomment-1205965838). 
+However, no matter how it varies, it remains strong linear correlation to the CD metric (see [discussion here](https://github.com/luost26/score-denoise/issues/12#issuecomment-1187022389)), so it does not affect the main result of this work.
+
 ```bash
 # PUNet dataset, 10K Points
 python test.py --dataset PUNet --resolution 10000_poisson --noise 0.01 --niters 1
